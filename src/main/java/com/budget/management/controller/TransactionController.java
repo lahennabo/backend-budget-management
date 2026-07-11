@@ -15,7 +15,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/transactions")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://budget-management-frontend.vercel.app")
 public class TransactionController {
 
     private final TransactionService transactionService;

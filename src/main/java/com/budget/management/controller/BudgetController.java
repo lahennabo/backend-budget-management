@@ -15,7 +15,9 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/api/budgets")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://budget-management-frontend.vercel.app")
+
 public class BudgetController {
 
     private final BudgetService budgetService;
